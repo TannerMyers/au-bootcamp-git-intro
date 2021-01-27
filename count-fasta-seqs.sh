@@ -98,5 +98,6 @@ for file in "$@"
 	do
 		grep ">" $file | wc -l
 		#becca was here:)
+		#this is becca's second change:)
+		echo "$@"
 	done
-
